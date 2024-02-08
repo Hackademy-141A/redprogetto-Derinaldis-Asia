@@ -1,6 +1,4 @@
-.imagelogo {
-    
-}
+.imglogo{height: 100px;}
 
 .navbar1 {
     min-height: 100px;
@@ -8,11 +6,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    
+
 }
 
 .padreli {
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .padredue {
@@ -20,25 +18,180 @@
     margin-right: 0;
 }
 
-body {
-    height: 100vh;
-  }
-
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5); 
-  }
 
   .image2 {
     background: url(mountains.png), linear-gradient(white,transparent), url(switzerland-862870_1920.png);
-    background-size: contain,cover,cover;
+    background-size: cover,cover,cover;
     background-position:bottom,center, center;
     background-repeat: no-repeat;
     height: calc(100vh - 140px);
   }
 
+.titololorem1 {
+    font-family:  Nova Square, Rajdhani;
+    Color: black;
+  
+}
 
+
+.padretitolo {
+    margin-top: 1350px;
+    margin-left: 1000px;
+}
+
+.quotes {
+    position: relative;
+}
+
+.quotes::before {
+    content: ' " ';
+    color: darkred;
+    font-size: 150px;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: -50px;
+}
+
+.quotes::after {
+    content: ' " ';
+    color: darkred;
+    font-size: 150px;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 1660px;
+
+}
+
+.primaicona {
+  height: 200px;
+}
+
+.primocontainer {
+    margin-top: 500px;
+
+    
+}
+
+.padrex {
+    font-size:100px;
+    color: darkred;
+   margin-left: 200px;
+}
+
+.bordo {
+    border-bottom: 2px solid darkred;
+    position: relative;
+}
+
+.bordo::before{
+    content: ' " ';
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    border: 2px solid red;
+    position: absolute;
+    left: 210px;
+    border-radius: 50%;
+    margin-top: 45px;
+}
+
+.bordo::before{
+    content: ' " ';
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    border: 5px solid red;
+    position: absolute;
+    left: 230px;
+    border-radius: 50%;
+}
+
+.padrey {
+   padding: 0;
+   margin: 0;
+   margin-top: 0;
+}
+
+.iconaimage2 {
+    margin-left: 40px ;
+}
+
+
+.iconaimage3 {
+    margin-left: 60px ;
+}
+
+
+.iconaimage4 {
+    margin-left: 105px ;
+}
+
+.paragrafo1 {
+    
+    text-align: center;
+    font-size: x-large;
+}
+
+.othercontainer {
+    margin-top: 350px;
+}
+
+.sottotitolo2 {
+    font-size: 60px;
+    font-family: Nova Square, Rajdhani;
+    Color: darkred ;
+    text-align: end;
+}
+
+.figlio1 {
+    font-size: 30px;
+}
+
+.figlio2 {
+    font-size: 30px;
+    text-align: end;
+   
+}
+
+.sottotitolo3 {
+    text-align: end;
+    font-size: 60px;
+    font-family: Nova Square, Rajdhani;
+    Color: darkred ;
+    text-align: start;
+}
+
+.btn {
+    height: 50px;
+    width: 300px;
+    font-size: xxx-larger;
+    border: 5px solid transparent;
+    background-color: darkred;
+    margin-top: 40px;
+}
+
+.rigabottone {
+    font-size: larger;
+    margin-left: 850px;
+}
+
+.lorem1 {
+    font-size: x-large;
+    align-items: center;
+    text-align: center;
+}
+
+.imagefinale {
+   background-color: darkgrey;
+    height: 400px;
+    width: 5000px;
+    background-image: url(trees2.png);
+    background-size: contain;
+}
+    
+
+
+.sfondo {
+    background-image: url(trees2.png);
+    background-size: cover;
+}
