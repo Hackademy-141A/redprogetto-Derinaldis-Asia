@@ -1,0 +1,22 @@
+.imagelogo {
+   
+}
+
+.navbar1 {
+    height: 100px;
+    background-image: url(logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.padreli {
+    margin-top: 100px;
+}
+
+.padredue {
+    margin-left: 0;
+    margin-right: 0;
+}
+
