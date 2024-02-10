@@ -6,7 +6,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-
+    
 }
 
 .padreli {
@@ -19,18 +19,18 @@
 }
 
 
-  .image2 {
+.image2 {
     background: url(mountains.png), linear-gradient(white,transparent), url(switzerland-862870_1920.png);
     background-size: cover,cover,cover;
     background-position:bottom,center, center;
     background-repeat: no-repeat;
     height: calc(100vh - 140px);
-  }
+}
 
 .titololorem1 {
     font-family:  Nova Square, Rajdhani;
     Color: black;
-  
+    
 }
 
 
@@ -59,23 +59,23 @@
     position: absolute;
     margin-top: -100px;
     margin-left: 1660px;
-
+    
 }
 
 .primaicona {
-  height: 200px;
+    height: 200px;
 }
 
 .primocontainer {
     margin-top: 500px;
-
+    
     
 }
 
 .padrex {
     font-size:100px;
     color: darkred;
-   margin-left: 200px;
+    margin-left: 200px;
 }
 
 .bordo {
@@ -107,9 +107,9 @@
 }
 
 .padrey {
-   padding: 0;
-   margin: 0;
-   margin-top: 0;
+    padding: 0;
+    margin: 0;
+    margin-top: 0;
 }
 
 .iconaimage2 {
@@ -150,7 +150,7 @@
 .figlio2 {
     font-size: 30px;
     text-align: end;
-   
+    
 }
 
 .sottotitolo3 {
@@ -161,14 +161,26 @@
     text-align: start;
 }
 
-.btn {
-    height: 50px;
+.btnmia {
+    height: 100px;
     width: 300px;
     font-size: xxx-larger;
     border: 5px solid transparent;
     background-color: darkred;
     margin-top: 40px;
 }
+
+.btnmia::before {
+    height: 100px;
+    width: 300px;
+    font-size: xxx-larger;
+    border: 5px solid darkred;
+    background-color: white;
+    margin-top: 40px;
+   
+}
+
+
 
 .rigabottone {
     font-size: larger;
@@ -179,19 +191,142 @@
     font-size: x-large;
     align-items: center;
     text-align: center;
+    align-items: center;
+
 }
 
 .imagefinale {
-   background-color: darkgrey;
+    background-color: rgba(119, 136, 153, 0.233) ;
     height: 400px;
     width: 5000px;
     background-image: url(trees2.png);
     background-size: contain;
 }
-    
+
 
 
 .sfondo {
     background-image: url(trees2.png);
     background-size: cover;
+}
+
+/* sezione francesco */
+
+.nova-square-regular {
+    font-family: "Nova Square", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+ .h2{font-family:  Nova Square, Rajdhani; color: darkred;}
+
+ *{font-family:Nova Square, Rajdhani ;color: darkred;} 
+
+.timeline{border-left: 5px solid darkred;}
+
+.titletimeline{margin-left: 110px;}
+.palla{position: relative;
+}
+.palla::before{content:'.';
+background-color: white;
+height: 20px;
+width: 20px;
+border: 2px solid red;
+position: absolute;
+left: -25px; 
+top: 7px;
+border-radius: 50%;
+border-color: darkred;
+color: white;}
+
+
+.mar{margin-top: 150px;}
+
+.back{background-image: url(./single.png);
+     background-size: contain;
+      background-position-x: right;
+     background-repeat: no-repeat;}
+
+
+.noborder{border-color: white;}
+
+.marg{margin-left: 100px;}
+
+.margine1 {
+    margin-left: 110px;
+}
+
+.paragrafo4 {
+    font-size: xx-large;
+}
+
+.marginesopra{
+    padding-top:  105px ;
+}
+
+
+{
+    font: "Nova Square" , sans-serif;
+}
+
+h1 ,h2,h3, h4, h5 {
+    font: "Radjha", sans-serif;
+}
+
+.textRED{
+    color: darkred;
+    letter-spacing: 50px;
+
+}
+
+/header/
+
+.imgheader{
+    background-image: linear-gradient(rgb(255, 255, 255), rgba(23,23,23,0.5)),url(./switzerland-862870_1920.jpg);
+    height: 100vh;
+    background-position: center;
+    z-index: -1;
+
+}
+.background{
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%, rgba(255, 255, 255, 0) 100%);
+}
+
+
+
+/ .img1 {
+    width: 100%;
+    mask-image: linear-gradient(to bottom, rgb(255, 254, 254) 0%,rgb(255, 255, 255)100%,rgba(255, 255, 255, 0) 100%); 
+} */
+
+.position{
+    position: relative;
+}
+
+.cerdim{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    border: 3px solid darkred;
+}
+
+
+.box {
+width: 50%;
+height: 50%; 
+/* font-size: 10px; */
+display: inline-block;
+border-left: solid 3px darkred;
+background-image: url(./trees.png);
+color: aliceblue;
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+
+
+.personale {
+    background-color: darkred;
 }
