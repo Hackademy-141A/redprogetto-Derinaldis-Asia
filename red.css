@@ -1,3 +1,4 @@
+
 .imglogo{height: 100px;}
 
 .navbar1 {
@@ -33,77 +34,56 @@
     
 }
 
-
-.padretitolo {
-    margin-top: 1350px;
-    margin-left: 1000px;
-}
-
 .quotes {
-    position: relative;
+   
 }
+
 
 .quotes::before {
     content: ' " ';
     color: darkred;
-    font-size: 150px;
+    font-size: 50px;
     position: absolute;
-    margin-top: -80px;
-    margin-left: -50px;
+    margin-top: -20px;
+    margin-left: -15px;
 }
 
 .quotes::after {
     content: ' " ';
     color: darkred;
-    font-size: 150px;
+    font-size: 50px;
     position: absolute;
-    margin-top: -100px;
-    margin-left: 1660px;
+    margin-left: 0px;
+    margin-top: 0px;
     
 }
-
-.primaicona {
-    height: 200px;
+.iconapersonale {
+    font-size: 50px;
 }
 
-.primocontainer {
-    margin-top: 500px;
+.linea10 {
+    border-bottom:2px solid darkred ;
+}
+
+.palle {
     
-    
-}
-
-.padrex {
-    font-size:100px;
-    color: darkred;
-    margin-left: 200px;
-}
-
-.bordo {
-    border-bottom: 2px solid darkred;
     position: relative;
 }
 
-.bordo::before{
+
+
+.palle::before{
     content: ' " ';
+    color: white;
     background-color: white;
     height: 20px;
     width: 20px;
-    border: 2px solid red;
+    border: 3px solid darkred;
     position: absolute;
-    left: 210px;
+    left: 95px;
     border-radius: 50%;
-    margin-top: 45px;
-}
-
-.bordo::before{
-    content: ' " ';
-    background-color: white;
-    height: 30px;
-    width: 30px;
-    border: 5px solid red;
-    position: absolute;
-    left: 230px;
-    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: -20px;
 }
 
 .padrey {
@@ -112,19 +92,6 @@
     margin-top: 0;
 }
 
-.iconaimage2 {
-    margin-left: 40px ;
-}
-
-
-.iconaimage3 {
-    margin-left: 60px ;
-}
-
-
-.iconaimage4 {
-    margin-left: 105px ;
-}
 
 .paragrafo1 {
     
@@ -132,30 +99,31 @@
     font-size: x-large;
 }
 
-.othercontainer {
-    margin-top: 350px;
+.rosso {
+    background-color: darkred;
 }
 
+
+
 .sottotitolo2 {
-    font-size: 60px;
+    font-size: 30px;
     font-family: Nova Square, Rajdhani;
     Color: darkred ;
     text-align: end;
 }
 
 .figlio1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .figlio2 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: end;
     
 }
 
 .sottotitolo3 {
-    text-align: end;
-    font-size: 60px;
+    font-size: 30px;
     font-family: Nova Square, Rajdhani;
     Color: darkred ;
     text-align: start;
@@ -184,7 +152,7 @@
 
 .rigabottone {
     font-size: larger;
-    margin-left: 850px;
+    
 }
 
 .lorem1 {
@@ -198,9 +166,10 @@
 .imagefinale {
     background-color: rgba(119, 136, 153, 0.233) ;
     height: 400px;
-    width: 5000px;
+    width: 100%;
     background-image: url(trees2.png);
     background-size: contain;
+    border-top: 2px solid linear-gradient (lightgrey,transparent);
 }
 
 
